@@ -1,0 +1,24 @@
+.sans-serif {
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#mainNav .navbar-brand {
+    font-family: 'Stalinist One', cursive !important;
+}
+
+#portfolio {
+    position: relative;
+    /* margin-bottom: 100px; */
+}
+
+.exp-img {
+    height: auto;
+    width:500px;
+}
