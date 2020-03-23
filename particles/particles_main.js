@@ -9,10 +9,10 @@ var json = {
         }
       },
       "color": {
-        "value": "#1f233e"
+        "value": "#9ccdc1"
       },
       "shape": {
-        "type": "circle",
+        "type": "triangle",
         "stroke": {
           "width": 0,
           "color": "#000"
@@ -115,5 +115,5 @@ var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(json));
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', jsonUri, function() {
-    console.log('callback - particles.js config loaded');
+    // console.log('callback - particles.js config loaded');
   });
