@@ -1,4 +1,4 @@
-//Local storage 
+//Local storage - saving location to DOM form field
 window.onload = function(e){
   document.getElementById('locationName').value = localStorage.getItem('userInput');
 }
