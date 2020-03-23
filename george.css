@@ -9,6 +9,19 @@
     z-index: 0;
 }
 
+@media (min-width: 768px) {
+    header.masthead .intro-text .intro-heading {
+      font-size: 75px !important;
+    }
+    #introLead {
+      margin-bottom: 100px;
+    }
+  }
+
+.footer {
+    padding: 5px 0 !important;
+}
+
 #mainNav .navbar-brand {
     font-family: 'Stalinist One', cursive !important;
 }
