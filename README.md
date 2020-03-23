@@ -2,9 +2,13 @@
 
 Welcome to KWHEST (pronounced Quest)!  KWHEST is a one-page adventure finder after you have entered a city/state pair in the location form field.
 
-## Preview
+[GitHub Link](https://github.com/gwyscaver/kwhest)
 
-[![Agency Preview](../img/kwhest.jpg)
+## Preview
+[Video Playback](https://youtu.be/gSUrpuhjrXU)
+
+![Video Tutorial](img/kwhest.jpg)
+
 
 ## Download and Installation
 
