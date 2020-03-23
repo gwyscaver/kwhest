@@ -5,18 +5,14 @@ Welcome to KWHEST (pronounced Quest)!  KWHEST is a one-page adventure finder aft
 [GitHub Link](https://github.com/gwyscaver/kwhest)
 
 ## Preview
-[Video Playback](https://youtu.be/gSUrpuhjrXU)
 
 ![Video Tutorial](img/kwhest.jpg)
 
-
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
+To begin using this site, choose one of the following options to get started:
+* Clone the repo: `git clone https://github.com/gwyscaver/kwhest.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/gwyscaver/kwhest)
 
 ## Usage
 
