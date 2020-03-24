@@ -1,5 +1,13 @@
 #George added:
 .DS_Store
+scss/
+vendor/
+assets/
+gulpfile.js
+package-lock.json
+package.json
+/css
+/js
 
 # Logs
 logs
