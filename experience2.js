@@ -7,12 +7,11 @@ const valid = true;
 //Created javascript event listener to detect form submission when 'Find KWHEST' button has been clicked
 document.getElementById('submitDestination').addEventListener('click', function (){
   document.getElementById('experienceContent').innerHTML='';
-  //console.log('submitted')
+  
   const location = document.getElementById('locationName').value;
-  //console.log(location)
+  
   if (location.length <=50 && /^([a-zA-Z]\-*\s*[a-zA-Z]+)+[,]\s*[a-zA-Z]{2,}$/.test(location)) {
     localStorage.setItem('userInput', location);
-    // console.log('input is valid' + /^([a-zA-Z]\-*\s*[a-zA-Z]+)+[,]\s*[a-zA-Z]{2,}$/.test(location))
     document.getElementById('text-danger').innerText = '';
     document.getElementById('experienceBox').classList.remove('invisible');
 
@@ -22,17 +21,16 @@ document.getElementById('submitDestination').addEventListener('click', function 
     elmnt.scrollIntoView();
   } else {
     document.getElementById('text-danger').innerText = 'Your input was invalid';
-    // console.log('input is not valid' + location)
     valid = false;
   }
 });
 
-// grabs information from 'Yelp'
+//Grabs information from 'Yelp'
 function grabExperiences(location){
-    // link to yelp api
+    // link to Yelp api
     const yelpURL = 'https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location='+location+'&categories=active,arts&radius=16094&rating=3.5&price=2,3&limit=5';
     
-
+//API call
     $.ajax({
       url:yelpURL,
       method:'GET',
@@ -83,10 +81,12 @@ function grabExperiences(location){
       });
     };
 
+//Create timer for background to change to black
   let color = 255;
   let countDownInterval = setInterval(function() {
     if (color > 0) {
       if (color == 125) {
+        // Create timer for sub-headings to change to white
         document.querySelector('#trip-overview').style.color='#fff';
         document.querySelector('#expSubHead').classList.remove('text-muted');
         document.querySelector('#expSubHead').style.color='#fff';
